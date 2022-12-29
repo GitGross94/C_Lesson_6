@@ -41,6 +41,5 @@ void OutputResponse(double[,] coeff)
     Console.Write($"\nТочка пересечения прямых: ({crossPoint[0]}, {crossPoint[1]})");
   }
 }
-
 InputCoefficients();
 OutputResponse(coeff);
